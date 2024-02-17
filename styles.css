@@ -14,3 +14,26 @@
     --Div-bg: hsl(0, 0%, 100%);
     --Web-bg: hsl(275, 100%, 97%);
 }
+
+/* ------------BODY------------ */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0px;
+    background-image: url(images/background-pattern-desktop.svg);
+    background-color: var(--Web-bg);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+/* ------------CARD------------ */
+.content-container{
+    width: 40%;
+    min-width: 220px;
+    height: 50%;
+    background-color: var(--Div-bg);
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 16px;
+}
