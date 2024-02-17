@@ -1,0 +1,16 @@
+/* ------------FONTS------------ */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ------------VARIABLE------------ */
+:root{
+    /* FONT */
+    --Font: "Work Sans", sans-serif;
+    --Small-Font: 400;
+    --Medium-Font: 600 var;
+    --Big-font: 800;
+    /* COLORS */
+    --Principal: hsl(292, 42%, 14%);
+    --Secondary: hsl(292, 16%, 49%);
+    --Div-bg: hsl(0, 0%, 100%);
+    --Web-bg: hsl(275, 100%, 97%);
+}
